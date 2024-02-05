@@ -1,0 +1,40 @@
+<app-navbar></app-navbar>
+<router-outlet></router-outlet>
+<ul class="menu">
+  <li></li>
+  <li>
+      <p>
+          <a href="#" [routerLink]="['/contact']" (click)="scroll()" data-mdb-placement="top"
+              data-mdb-toggle="tooltip" title="Contact Us"> <i class="fa-solid fa-address-card contact"></i>
+          </a>
+      </p>
+  </li>
+
+  <li>
+      <p>
+          <a href="https://wa.me/+7620600072" target="_blank" data-mdb-toggle="tooltip" data-mdb-placement="top"
+              title="Connect Through Whatsapp "> <i class="fa-brands fa-whatsapp icon"></i>
+          </a>
+      </p>
+  </li>
+
+  <li>
+      <p>
+          <a href="https://www.instagram.com/fascinawintec/" target="_blank" data-mdb-toggle="tooltip" data-mdb-placement="top"
+              title="Visit To Instagram"> <i class="fa-brands fa-instagram iconi"></i>
+          </a>
+      </p>
+
+  </li>
+
+  <li>
+      <p>
+          <a href="https://www.facebook.com/fascinawintec" target="_blank" data-mdb-placement="top" data-mdb-toggle="tooltip"
+              title="Connect On Facebook">
+              <i class="fa-brands fa-facebook facebook"></i>
+          </a>
+      </p>
+  </li>
+</ul>
+<button class="btn btn-primary btn-sm" (click)="scroll()"><i class="fas fa-angle-up fa-2x" style="color: white;"></i></button>
+<app-footer></app-footer>

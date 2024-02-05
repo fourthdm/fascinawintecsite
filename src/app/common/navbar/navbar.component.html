@@ -1,0 +1,261 @@
+<!-- <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container n" style="background-color: rgb(37, 150, 190)">
+            <a class="navbar-brand" href="">
+                <img src="/assets/logo.jpg" height="75" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-mdb-auto-close="true" data-mdb-toggle="offcanvas"
+                data-mdb-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel" style="width: 50%;">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel"> <img src="/assets/logo.jpg" height="75"
+                            alt="MDB Logo" loading="lazy" /></h5>
+                    <button type="button" class="btn-close" data-mdb-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-start flex-grow-1 pe-3" (click)="closeNavbar()">
+                        <li class="nav-item">
+                            <a class="nav-link" href="" (click)="scroll()">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" [routerLink]="['/about']" (click)="scroll()">About Us</a>
+                        </li>
+
+                        <li class="nav-item dropdown dropdown-hover">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-mdb-toggle="dropdown" aria-expanded="false">
+                                Our Products </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li>
+                                    <a class="dropdown-item" href="#" [routerLink]="['/tophungwindows']">UPVC
+                                        Windows</a>
+                                    <ul class="dropdown-menu dropdown-submenu">
+                                        <li>
+                                            <a class="dropdown-item" (toggle)="true" href="#" (click)="scroll()"
+                                                [routerLink]="['/tophungwindows']">Top
+                                                Hung UPVC Windows</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" (toggle)="true" href="#" (click)="scroll()"
+                                                [routerLink]="['/tiltturnwindows']">UPVC
+                                                Tilt & Turn Windows</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" (toggle)="true" href="#" (click)="scroll()"
+                                                [routerLink]="['/slidingwindows']">UPVC
+                                                Sliding Windows</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" (toggle)="true" href="#" (click)="scroll()"
+                                                [routerLink]="['/casementwindows']">Casement
+                                                Windows</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" (toggle)="true" href="#" (click)="scroll()"
+                                                [routerLink]="['/specialwindows']">Special
+                                                uPVC Windows</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#" (click)="scroll()"
+                                                [routerLink]="['/coloredwindows']">Coloured
+                                                uPVC Windows</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#" (click)="scroll()"
+                                                [routerLink]="['/aluminiumwindows']">Aluminium
+                                                Windows</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li>
+                                    <a class="dropdown-item" href="#" [routerLink]="['/slidefolddoor']">UPVC Doors</a>
+                                    <ul class="dropdown-menu dropdown-submenu">
+                                        <li>
+                                            <a class="dropdown-item" href="#" (click)="scroll()"
+                                                [routerLink]="['/slidefolddoor']">UPVC
+                                                Slide
+                                                And Fold Door</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#" (click)="scroll()"
+                                                [routerLink]="['/liftslidedoor']">UPVC
+                                                Lift
+                                                And Slide Door</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#" (click)="scroll()"
+                                                [routerLink]="['/casementdoor']">UPVC
+                                                Casement
+                                                Door</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#" (click)="scroll()"
+                                                [routerLink]="['/slidingdoor']">UPVC
+                                                Sliding
+                                                Doors</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#" (click)="scroll()"
+                                                [routerLink]="['/aluminumdoor']">Aluminium
+                                                Doors</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" (click)="scroll()" [routerLink]="['/services']">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" (click)="scroll()" [routerLink]="['/gallery']">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" (click)="scroll()" [routerLink]="['/portfolio']">Brochure</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" (click)="scroll()" [routerLink]="['/contact']">Contact Us</a>
+                        </li>
+                    </ul>
+
+                    <button class="btn btn-lg animate__animated animate__bounce"
+                        style="background-color: #a91f25; color: white;" [routerLink]="['/contact']"><b>Get
+                            Quote</b></button>
+
+                </div>
+            </div>
+
+        </div>
+
+    </nav>
+</div> -->
+
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container n"  style="background-color: rgb(37, 150, 190)">
+        <a class="navbar-brand" href="#"> <img src="/assets/logo.jpg" height="75" alt=""></a>
+
+        <button class="navbar-toggler btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span style="color: white;" class="navbar-toggler-icon" ></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav justify-content-start flex-grow-1 pe-3" (click)="closeNavbar()">
+                <li class="nav-item">
+                    <a class="nav-link" href="" (click)="scroll()">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" [routerLink]="['/about']" (click)="scroll()">About Us</a>
+                </li>
+
+                <li class="nav-item dropdown dropdown-hover">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                        data-mdb-toggle="dropdown" aria-expanded="false">
+                        Our Products </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li>
+                            <a class="dropdown-item" href="#" [routerLink]="['/tophungwindows']">UPVC
+                                Windows</a>
+                            <ul class="dropdown-menu dropdown-submenu">
+                                <li>
+                                    <a class="dropdown-item" (toggle)="true" href="#" (click)="scroll()"
+                                        [routerLink]="['/tophungwindows']">Top
+                                        Hung UPVC Windows</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" (toggle)="true" href="#" (click)="scroll()"
+                                        [routerLink]="['/tiltturnwindows']">UPVC
+                                        Tilt & Turn Windows</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" (toggle)="true" href="#" (click)="scroll()"
+                                        [routerLink]="['/slidingwindows']">UPVC
+                                        Sliding Windows</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" (toggle)="true" href="#" (click)="scroll()"
+                                        [routerLink]="['/casementwindows']">Casement
+                                        Windows</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" (toggle)="true" href="#" (click)="scroll()"
+                                        [routerLink]="['/specialwindows']">Special
+                                        uPVC Windows</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#" (click)="scroll()"
+                                        [routerLink]="['/coloredwindows']">Coloured
+                                        uPVC Windows</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#" (click)="scroll()"
+                                        [routerLink]="['/aluminiumwindows']">Aluminium
+                                        Windows</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a class="dropdown-item" href="#" [routerLink]="['/slidefolddoor']">UPVC Doors</a>
+                            <ul class="dropdown-menu dropdown-submenu">
+                                <li>
+                                    <a class="dropdown-item" href="#" (click)="scroll()"
+                                        [routerLink]="['/slidefolddoor']">UPVC
+                                        Slide
+                                        And Fold Door</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#" (click)="scroll()"
+                                        [routerLink]="['/liftslidedoor']">UPVC
+                                        Lift
+                                        And Slide Door</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#" (click)="scroll()"
+                                        [routerLink]="['/casementdoor']">UPVC
+                                        Casement
+                                        Door</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#" (click)="scroll()"
+                                        [routerLink]="['/slidingdoor']">UPVC
+                                        Sliding
+                                        Doors</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#" (click)="scroll()"
+                                        [routerLink]="['/aluminumdoor']">Aluminium
+                                        Doors</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" (click)="scroll()" [routerLink]="['/services']">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" (click)="scroll()" [routerLink]="['/gallery']">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" (click)="scroll()" [routerLink]="['/portfolio']">Brochure</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" (click)="scroll()" [routerLink]="['/contact']">Contact Us</a>
+                </li>
+            </ul>
+
+            <button class="btn btn-lg animate__animated animate__bounce"
+                style="background-color: #a91f25; color: white;" [routerLink]="['/contact']"><b>Get
+                    Quote</b></button>
+
+        </div>
+    </div>
+</nav>

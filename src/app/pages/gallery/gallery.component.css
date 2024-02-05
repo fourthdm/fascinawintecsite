@@ -1,0 +1,25 @@
+.main {
+    background-image: url('/assets/casementwindows.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.div {
+    padding: 23% 15% 15% 15%;
+    text-align: center;
+    color: white;
+}
+
+h3 {
+    /* text-decoration: underline; */
+    font-weight: bold;
+    color: black;
+}
+
+@media(max-width:430px) {
+    .div {
+        padding: 35% 15% 15% 15%;
+        text-align: center;
+        color: white;
+    }
+}

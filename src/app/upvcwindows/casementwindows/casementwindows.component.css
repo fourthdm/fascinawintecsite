@@ -1,0 +1,72 @@
+.main {
+    background-image: url('/assets/casementwindows.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.div {
+    padding: 23% 15% 15% 15%;
+    text-align: center;
+    color: white;
+}
+
+.text {
+    padding: 3%;
+}
+
+h2 {
+    color: #3790ce;
+}
+
+li {
+    list-style: none;
+}
+
+.fa-check {
+    color: #3790ce;
+}
+
+
+ul li {
+    width: 100%;
+    border: 1px solid #777777c6;
+    background: white;
+    line-height: 50px;
+    padding-left: 30px;
+    position: relative;
+}
+
+ul li a {
+    color: black;
+    font-size: 15px;
+}
+ul li a:hover{
+    color: white;
+}
+
+ul li:hover {
+    background: #3790ce;
+    color: white;
+}
+
+
+ul li.active {
+    background: #3790ce;   
+    width: 100%;
+    line-height: 50px;
+    padding-left: 30px;
+    color: #fff;
+}
+
+ul {
+    margin-left: -1.5rem;
+    list-style: none;
+}
+
+@media(max-width:430px) {
+    .div {
+        padding: 35% 15% 15% 15%;
+        text-align: center;
+        color: white;
+    }
+}

@@ -1,0 +1,26 @@
+.main {
+    background-color: rgba(0, 0, 0, 0.677);
+}
+
+@media(max-width:414px) {
+    .ca {
+        margin-top: 3%;
+    }
+}
+
+h6 {
+    font-weight: bold;
+}
+
+.b {
+    background-color: #3790ce;
+}
+
+.r {
+    background-color: #a91f25;
+}
+
+li {
+    padding-top: 3%;
+}
+
