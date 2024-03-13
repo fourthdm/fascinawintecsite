@@ -78,8 +78,6 @@
     margin-top: 1%;
 }
 
-
-
 .card-body {
     background-color: #3790ce;
 }
@@ -92,7 +90,6 @@ ul li a:hover {
     background: #3790ce;
     color: white;
 }
-
 
 ul li a.active {
     background: #3790ce;
@@ -123,7 +120,6 @@ ul {
 .main3 img {
     max-width: 100%;
 }
-
 
 .card-title,
 .card-text {
@@ -175,7 +171,7 @@ ul {
     background-size: cover;
 }
 
-@media(max-width:414px) {
+@media(max-width:439px) {
     .icon {
         width: 50%;
     }
